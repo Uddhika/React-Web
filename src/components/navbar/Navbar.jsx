@@ -28,8 +28,8 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="whatud__navbar-sign">
-                <p>Sign in</p>
-                <p><a href="">Signup</a></p>
+                <a href="#"><p>Sign in</p></a>
+                <p><a href="#">Signup</a></p>
             </div>
             <div className="whatud__navbar-menu">
                 {toggleMenu
@@ -38,11 +38,11 @@ const Navbar = () => {
                 }
 
                 {toggleMenu && (
-                    <div className="whatud__navbar-menu-container scale-up-center">
+                    <div className="whatud__navbar-menu_container scale-up-center">
                         <div className="whatud__navbar-menu-container-links">
                             <Menu />
                             <div className="whatud__navbar-menu_container-links-sign">
-                                <p>Sign in</p>
+                                <a href="#"><p>Sign in</p></a>
                                 <p><a href="">Signup</a></p>
                             </div>
                         </div>
