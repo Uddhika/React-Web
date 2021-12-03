@@ -1,0 +1,11 @@
+.whatud__brand{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.whatud__brand div{
+    
+    
+    margin: 1em;
+}
