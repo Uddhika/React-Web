@@ -4,7 +4,7 @@ import './whatud.css';
 
 const Whatud = () => {
     return (
-        <div className="whatud__whatud section-margin">
+        <div className="whatud__whatud section-margin" id="whatud">
             <div className="whatud__whatud-feature">
                 <Feature title="What is whatud" text="lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem"/>
             </div>

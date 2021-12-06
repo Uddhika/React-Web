@@ -3,8 +3,10 @@ import './possibility.css';
 
 const possibility = () => {
     return (
-        <div>
-            
+        <div className="whatud__possibility section-padding" id="possibility">
+            <div className="">
+
+            </div>
         </div>
     )
 }
