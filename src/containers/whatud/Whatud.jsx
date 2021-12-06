@@ -6,7 +6,7 @@ const Whatud = () => {
     return (
         <div className="whatud__whatud section-margin">
             <div className="whatud__whatud-feature">
-                <Feature />
+                <Feature title="What is whatud" text="lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem"/>
             </div>
 
             <div className="whatud__whatud-heading">
@@ -15,9 +15,9 @@ const Whatud = () => {
             </div>
 
             <div className="whatud__whatud-container">
-                <Feature />
-                <Feature />
-                <Feature />
+                <Feature title="Lorem 1" text="lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem" />
+                <Feature title="Lorem 2" text="lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem" />
+                <Feature title="Lorem 3" text="lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem" />
             </div>
 
         </div>
